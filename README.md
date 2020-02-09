@@ -1,8 +1,9 @@
 # [AllCodeRhythms](https://github.com/keshav143420/AllCodeRhythms)
 ## Setup
-`pip install -r requirements.txt` # pylint and other
-
-`bash setup.sh` # for git hooks
+### Install dependencies
+`pip install -r requirements.txt`
+### Setup git hooks
+`bash setup.sh`
 
 ## [HackerEarth](https://www.hackerearth.com/)
-HackerEarth Problem solutions [here](./hackerearth/README.md)
+HackerEarth Problem solutions [here](./hackerearth)

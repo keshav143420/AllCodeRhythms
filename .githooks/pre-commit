@@ -1,0 +1,37 @@
+#!/bin/sh
+
+ehco "--------------------------- Pre Commit Hook --------------------------"
+echo "Running tests"
+ehco "----------------------------------------------------------------------"
+
+py_test=$(python3 -m unittest test >/dev/null || echo $?)
+if [ "$py_test" == 1 ]
+then
+  echo "Run 'python3 -m unittest test' to know more..."
+  exit 1
+else
+  echo "All Test ran successfully"
+fi
+
+python_modules=(hackerearth test)
+
+echo "----------------------------------------------------------------------"
+echo "Running pylint"
+echo "----------------------------------------------------------------------"
+for item in ${python_modules[*]}
+do
+  pylint_result=$(pylint $item) 
+  result=""
+  result=$(echo "$pylint_result" | grep "Your code has been rated at 10.00/10")
+  if [ -z "$result" ]
+  then
+    echo "$pylint_result"
+    exit 1
+  else
+    echo "$result - for module $item"
+    # printf "%s - for module - %s\n" "$result",$item 
+  fi
+done
+echo "----------------------------------------------------------------------"
+
+

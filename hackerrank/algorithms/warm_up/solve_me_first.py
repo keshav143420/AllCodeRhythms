@@ -1,4 +1,4 @@
-class SolveMeFirst(object):
+class SolveMeFirst:
     def __init__(self, a, b):
         self.num1 = a
         self.num2 = b

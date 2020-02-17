@@ -14,7 +14,7 @@ class CarVans:
 def main():
     test_cases = int(input())
     for _ in range(test_cases):
-        N = int(input())
+        _ = int(input())
         car_speeds = list(int(x) for x in input().split())
         cv = CarVans()
         count = cv.maximum_speed(car_speeds)

@@ -13,7 +13,7 @@ else
   echo "All Test ran successfully"
 fi
 
-python_modules=(hackerearth test)
+python_modules=(hackerearth hackerrank codechef test)
 
 echo "----------------------------------------------------------------------"
 echo "Running pylint"

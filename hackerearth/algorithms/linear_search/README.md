@@ -22,3 +22,11 @@
 |Run|`python3 -m hackerearth.algorithms.linear_search.repeated_k_times < hackerearth/algorithms/linear_search/repeated_k_times.in`|
 |Tests|`python3 -m unittest test.hackerearth.algorithms.linear_search.test_repeated_k_times`|
 |Judge| [here](https://www.hackerearth.com/submission/39204013/)
+
+## Holiday Season
+|Problem|[Statement / Definition](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/holiday-season-ab957deb/)|
+|---|---|
+|Solution|[implementation](holiday_season.py#L1-L19) |
+|Run|`python3 -m hackerearth.algorithms.linear_search.holiday_season < hackerearth/algorithms/linear_search/holiday_season.in`|
+|Tests|`python3 -m unittest test.hackerearth.algorithms.linear_search.test_holiday_season`|
+|Judge| [here]()

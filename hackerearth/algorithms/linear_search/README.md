@@ -14,3 +14,11 @@
 |Run|`python3 -m hackerearth.algorithms.linear_search.monk_takes_a_walk < hackerearth/algorithms/linear_search/monk_takes_a_walk.in`|
 |Tests|`python3 -m unittest test.hackerearth.algorithms.linear_search.test_monk_takes_a_walk`|
 |Judge| [here](https://www.hackerearth.com/submission/39195835/)
+
+## Repeated K Times
+|Problem|[Statement / Definition](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/repeated-k-times)|
+|---|---|
+|Solution|[implementation](repeated_k_times.py#L1-L19) |
+|Run|`python3 -m hackerearth.algorithms.linear_search.repeated_k_times < hackerearth/algorithms/linear_search/repeated_k_times.in`|
+|Tests|`python3 -m unittest test.hackerearth.algorithms.linear_search.test_repeated_k_times`|
+|Judge| [here](https://www.hackerearth.com/submission/39204013/)

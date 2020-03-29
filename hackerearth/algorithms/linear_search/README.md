@@ -26,7 +26,7 @@
 ## Holiday Season
 |Problem|[Statement / Definition](https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/algorithm/holiday-season-ab957deb/)|
 |---|---|
-|Solution|[implementation](holiday_season.py#L1-L19) |
+|Solution|[implementation](holiday_season.py#L1-L50) |
 |Run|`python3 -m hackerearth.algorithms.linear_search.holiday_season < hackerearth/algorithms/linear_search/holiday_season.in`|
 |Tests|`python3 -m unittest test.hackerearth.algorithms.linear_search.test_holiday_season`|
-|Judge| [here]()
+|Judge| [here](https://www.hackerearth.com/submission/39333611/)

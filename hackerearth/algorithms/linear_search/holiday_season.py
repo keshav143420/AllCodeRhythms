@@ -51,8 +51,8 @@ class HolidaySeason:
 
 
 if __name__ == '__main__':
-    n = 5  # int(input())
-    arr = 'ababa'  # input()
+    n = int(input())
+    arr = input()
     hs = HolidaySeason()
     result = hs.num_of_sub_sequences(n, arr)
     print(result)

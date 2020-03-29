@@ -44,37 +44,37 @@ class HolidaySeasonTestCase(unittest.TestCase):
         expected_result = 36
         self.assertEqual(expected_result, actual_result)
 
-        # num_ele_in_seq = 2000
-        # sequence = 'gbgipsvukgylwfyulteaucqtguivpdihgbzehwwezdaudbqgfasecqxduwskeldaamuiovnkdus' \
-        #            'ufmkfbznsmvqdcwhebitrhgtiecmifuwiflogwtfszpnnycixsygncmgsrmvnzlljewwakqxmjp' \
-        #            'ydyvyibtbvjaymglcjbmkjydrbrkizzllpkprfwiaixokiwxkslioijcqdqmmbjpkmuuriknfbu' \
-        #            'kkmunddzlgnqffrtbxmtnhhftsrptfzaqmnkouflnrzemktwrhvtlbygxjgkrlvgevkecoeknes' \
-        #            'jcijnopfjzhtzinftggjxdgfnlrraltmbjjjuxyubwfxyerrepuadvboaevxmpjktpsndzsfscy' \
-        #            'pusrapdrkkgwyrwfekxipcdyxbgyuquuxcxlxsztpnhylalrichqteabmusrtnkdrungklppwtv' \
-        #            'jyawzjencxrilghozdkimsqvqzpxmaceesbnxekqnvekbknpcnaucdbdugqymjbdsziyjguuzpo' \
-        #            'kalwhkyvijoctnxxzkhgzljointdgvqnygvemuvmsrhbglqheolvithnmqgfzhnnmraorxhfvzh' \
-        #            'cfyggzgujqnztyoryfxwxiinytvrcfoimjplqlhunpwyleqcvoexamsiymfdefkpshcobwihhmo' \
-        #            'nyfhhnzzjelhfwgmcoerbwccvqrsalcrxmszwuitdhdrcmmcelgucehsgktnqlhyxhfirdsjnii' \
-        #            'zbuvfxtbwefwffdgdhncoipsgxzmsvqvhgvjzcabrsjemmsgiarqnlhqykihdmfzmirmvuwtdpv' \
-        #            'hwhicfhezlyykdkyairtozrzholguvzohahffdyebtnnqpyzycwlnhmafiubmkaanswbremrket' \
-        #            'amztqohraevumoshjaindgcvgsfaorewftsncqbrudgrpabgrbevwuzyxzokkzpnpuyzbarjqor' \
-        #            'xwwrihxwuauvjvonkdamjfwpgyfmfmfwgjxowluaafidsqssbdjasdgecvxudkwjfwhcnqbpkds' \
-        #            'crdarmnursrzpvmnmkvixrpsyplwqlfncufnwserrkkeytniuzkrvfehjaztxjgcncgossyobjq' \
-        #            'lfdkwyupxdjzhvalagyyfglsapztvmzahuupfxpqfpvjgxakrkrxqjagmtsmisujobwnlonkuug' \
-        #            'awsljssisygmqurdsqdcxkdoorfdcqaatukrmgwkwcrlgsytvxiaykmopqutocmuzezwoxikvte' \
-        #            'vkhsgmkurnvdcafhfwihvijpzlksthvhegcwonrfqplbuhiwejyxvugdprqugxwxtmfmsaenrae' \
-        #            'cqsjbnyceuaxowzfyeiwpflsqtajfwezomrlrgjqlwguediraoqunihoyhmskylxvrqacrqolgt' \
-        #            'gokcsrcbtjlpvweafwlecqxqtancdonogzjibeiovmlniybunficmcarrwnedwkoupeqttlkmmy' \
-        #            'fczjeqagqsszvktzskopscgfukzolbigrnxcmtuvwzmnviplynnotxwqclypbfvfjzxokwtfqzq' \
-        #            'sgqymfpzkxyouoxuszebkzjlebphhnghpuivbimwbbvplsqaortycmwrjdivqabdeycpcdpzymi' \
-        #            'jjbkloyepriikpqjkyjhzpnakhwaerqhprfwzkxhecydpzxaotskzcnwjhejytrigkogkggnlwu' \
-        #            'mlzrsriakvjaqetaqgbqpmmtofpxfiblnqzcvohfatuafdbarjuxkpchmjrdfbdkxeuijqakvfw' \
-        #            'gnajmycxnsducoyvnrmgkllvotdlwvnfrpluwmivxuludcgigvyjmecgretwfiimxqyxsvguaiw' \
-        #            'jmxgonthtjpyzfopnrlcpvmmogfsjbasaznvhfhwcfztjfowrtraavbljqjgnpherzntanqmjpp' \
-        #            'qvhtctuyhyngjnhsdajgjwbpfyxktlgvdejtlhcfvqdqbfuqwy'
-        # actual_result = self.hs.num_of_sub_sequences(num_ele_in_seq, sequence)
-        # expected_result = 979714091
-        # self.assertEqual(expected_result, actual_result)
+        num_ele_in_seq = 2000
+        sequence = 'gbgipsvukgylwfyulteaucqtguivpdihgbzehwwezdaudbqgfasecqxduwskeldaamuiovnkdus' \
+                   'ufmkfbznsmvqdcwhebitrhgtiecmifuwiflogwtfszpnnycixsygncmgsrmvnzlljewwakqxmjp' \
+                   'ydyvyibtbvjaymglcjbmkjydrbrkizzllpkprfwiaixokiwxkslioijcqdqmmbjpkmuuriknfbu' \
+                   'kkmunddzlgnqffrtbxmtnhhftsrptfzaqmnkouflnrzemktwrhvtlbygxjgkrlvgevkecoeknes' \
+                   'jcijnopfjzhtzinftggjxdgfnlrraltmbjjjuxyubwfxyerrepuadvboaevxmpjktpsndzsfscy' \
+                   'pusrapdrkkgwyrwfekxipcdyxbgyuquuxcxlxsztpnhylalrichqteabmusrtnkdrungklppwtv' \
+                   'jyawzjencxrilghozdkimsqvqzpxmaceesbnxekqnvekbknpcnaucdbdugqymjbdsziyjguuzpo' \
+                   'kalwhkyvijoctnxxzkhgzljointdgvqnygvemuvmsrhbglqheolvithnmqgfzhnnmraorxhfvzh' \
+                   'cfyggzgujqnztyoryfxwxiinytvrcfoimjplqlhunpwyleqcvoexamsiymfdefkpshcobwihhmo' \
+                   'nyfhhnzzjelhfwgmcoerbwccvqrsalcrxmszwuitdhdrcmmcelgucehsgktnqlhyxhfirdsjnii' \
+                   'zbuvfxtbwefwffdgdhncoipsgxzmsvqvhgvjzcabrsjemmsgiarqnlhqykihdmfzmirmvuwtdpv' \
+                   'hwhicfhezlyykdkyairtozrzholguvzohahffdyebtnnqpyzycwlnhmafiubmkaanswbremrket' \
+                   'amztqohraevumoshjaindgcvgsfaorewftsncqbrudgrpabgrbevwuzyxzokkzpnpuyzbarjqor' \
+                   'xwwrihxwuauvjvonkdamjfwpgyfmfmfwgjxowluaafidsqssbdjasdgecvxudkwjfwhcnqbpkds' \
+                   'crdarmnursrzpvmnmkvixrpsyplwqlfncufnwserrkkeytniuzkrvfehjaztxjgcncgossyobjq' \
+                   'lfdkwyupxdjzhvalagyyfglsapztvmzahuupfxpqfpvjgxakrkrxqjagmtsmisujobwnlonkuug' \
+                   'awsljssisygmqurdsqdcxkdoorfdcqaatukrmgwkwcrlgsytvxiaykmopqutocmuzezwoxikvte' \
+                   'vkhsgmkurnvdcafhfwihvijpzlksthvhegcwonrfqplbuhiwejyxvugdprqugxwxtmfmsaenrae' \
+                   'cqsjbnyceuaxowzfyeiwpflsqtajfwezomrlrgjqlwguediraoqunihoyhmskylxvrqacrqolgt' \
+                   'gokcsrcbtjlpvweafwlecqxqtancdonogzjibeiovmlniybunficmcarrwnedwkoupeqttlkmmy' \
+                   'fczjeqagqsszvktzskopscgfukzolbigrnxcmtuvwzmnviplynnotxwqclypbfvfjzxokwtfqzq' \
+                   'sgqymfpzkxyouoxuszebkzjlebphhnghpuivbimwbbvplsqaortycmwrjdivqabdeycpcdpzymi' \
+                   'jjbkloyepriikpqjkyjhzpnakhwaerqhprfwzkxhecydpzxaotskzcnwjhejytrigkogkggnlwu' \
+                   'mlzrsriakvjaqetaqgbqpmmtofpxfiblnqzcvohfatuafdbarjuxkpchmjrdfbdkxeuijqakvfw' \
+                   'gnajmycxnsducoyvnrmgkllvotdlwvnfrpluwmivxuludcgigvyjmecgretwfiimxqyxsvguaiw' \
+                   'jmxgonthtjpyzfopnrlcpvmmogfsjbasaznvhfhwcfztjfowrtraavbljqjgnpherzntanqmjpp' \
+                   'qvhtctuyhyngjnhsdajgjwbpfyxktlgvdejtlhcfvqdqbfuqwy'
+        actual_result = self.hs.num_of_sub_sequences(num_ele_in_seq, sequence)
+        expected_result = 979714091
+        self.assertEqual(expected_result, actual_result)
 
 
 if __name__ == '__main__':
